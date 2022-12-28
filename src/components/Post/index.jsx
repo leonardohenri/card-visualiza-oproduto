@@ -7,10 +7,10 @@ export const PostCard = () =>{
     return(
         <div className="container">
             <div className="grid">
-                <div>
-                    <img src={imagem} alt="perfume Gabrielle" className="photo"/>
-                                </div>
-                                <div className="text">
+                <div className="photo">
+                    <img src={imagem} alt="perfume Gabrielle" />
+                </div>
+                <div className="text">
                     <h3>perfume</h3>
                     <h2>Gabrielle Essence Eau De Parfum</h2>
                     <p className="desc">A floral, solar and voluptuous interpretation composed by olivier polge , perfumer-creator for the House of CHANEL</p>
@@ -19,8 +19,8 @@ export const PostCard = () =>{
                          <p>${valor}</p>
                      </div>
                     <button className="button">add to cart</button>
-                                </div>
                 </div>
+            </div>
         </div>
     );
 }
