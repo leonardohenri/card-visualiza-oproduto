@@ -1,0 +1,6 @@
+.body{
+  min-height: 100vh;
+  display: flex;
+ background-color: hsl(30, 38%, 92%);
+  align-items: center;
+}
